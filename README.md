@@ -1,1 +1,1 @@
-Softwere University angular development course
+Software University Angular development course
