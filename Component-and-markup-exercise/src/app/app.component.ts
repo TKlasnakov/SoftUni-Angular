@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'app-main',
-    templateUrl: '<h1>Hello, {{name}}</h1>'
+    templateUrl: 'src/app/app.component.html',
+    styleUrls: ['src/app/app.component.css']
 })
 
 export class AppComponent {

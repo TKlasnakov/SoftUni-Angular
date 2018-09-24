@@ -1,0 +1,14 @@
+.book-titles {
+    list-style-type: decimal;
+}
+.book-titles__list-item {
+    width: 14%;
+    background-color: #f4f4f4;
+    margin: 10px;
+    font: bold 16px Arial sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+.book-titles__list-item:hover {
+    cursor: pointer;
+}
