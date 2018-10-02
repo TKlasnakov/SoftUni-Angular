@@ -15,7 +15,7 @@ export class BooksComponent {
 
     constructor(){}
 
-    books:Book[] = Data
+    books:Book[] = Data;
 
 }
 
