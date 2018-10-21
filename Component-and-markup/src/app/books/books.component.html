@@ -1,0 +1,12 @@
+<div id="book-list" class="inline">
+  <ul class="book-titles">
+    <li class="book-titles__list-item"
+        *ngFor="let book of books"
+        (click)="getActiveBook(book)">
+      {{book.title}}
+    </li>
+  </ul>
+</div>
+<div id="book-details" class="inline">
+  <book-details *ngIf="selectedBook" [selectedBook]="selectedBook"></book-details>
+</div>

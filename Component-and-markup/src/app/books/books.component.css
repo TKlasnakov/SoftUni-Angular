@@ -1,0 +1,18 @@
+.book-titles {
+    list-style-type: decimal;
+}
+.book-titles__list-item {
+    background-color: #f4f4f4;
+    margin: 10px;
+    font: bold 16px Arial sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+.book-titles__list-item:hover {
+    cursor: pointer;
+}
+.inline {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 20px;
+}

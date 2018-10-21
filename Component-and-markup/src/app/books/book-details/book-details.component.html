@@ -1,0 +1,14 @@
+<div id="book-details-wrapper" class="book-details-wrapper">
+  <div id="description" class="description book-details clearfix">
+    <div id="description__text" class="description__text">{{bookDescription}}</div>
+    <div *ngIf="showButtonLess" id="description__read-less" class="description__read-more description__button left" (click)="readLess()">Read Less</div>
+    <div *ngIf="showButtonMore" id="description__read-more" class="description__read-more description__button right" (click)="readMore()">Read More</div>
+  </div>
+  <div id="author" class="author book-details">
+    <h3>{{selectedBook.author}}</h3>
+  </div>
+  <div id="image" class="image book-details">
+    <img [src]="selectedBook.image" alt={{selectedBook.title}}>
+  </div>
+</div>
+
