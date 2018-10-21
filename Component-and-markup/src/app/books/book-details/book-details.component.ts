@@ -12,27 +12,41 @@ export class BookDetailsComponent implements OnChanges{
 
   @Input() selectedBook: Book;
 
-  constructor() {}
-
   private showCharacters: number;
   private bookDescriptionLength: number;
+  private fontSize: number;
   protected bookDescription: string;
+  protected fontClass: string;
   protected showButtonMore: boolean;
   protected showButtonLess: boolean;
 
-  readMore(): void {
+  constructor() {}
+
+  readMore():void {
     this.showCharacters += BookDetailsConsts.showHideChars;
     this.checkButtonsVisibility();
     this.bookDescription = this.selectedBook.description.substr(0, this.showCharacters);
   }
 
-  readLess(): void{
+  readLess():void {
     this.showCharacters -= BookDetailsConsts.showHideChars;
     this.checkButtonsVisibility();
     this.bookDescription = this.selectedBook.description.substr(0, this.showCharacters);
   }
 
-  checkButtonsVisibility(): void {
+  increaseFontSize():void {
+    if(this.fontSize !<  BookDetailsConsts.fontSizes.biggestFontSize) {
+      this.fontClass =   'font-' + (this.fontSize += 2)
+    }
+  }
+
+  decreaseFontSize():void {
+    if(this.fontSize !>  BookDetailsConsts.fontSizes.smallestFontSize) {
+      this.fontClass = 'font-' + (this.fontSize -= 2)
+    }
+  }
+
+  checkButtonsVisibility():void {
     if(this.showCharacters >= this.bookDescriptionLength) {
       this.showCharacters = this.bookDescriptionLength;
     }
@@ -45,11 +59,12 @@ export class BookDetailsComponent implements OnChanges{
     this.showButtonMore = this.showCharacters < this.bookDescriptionLength;
   }
 
-
   ngOnChanges() {
     this.showCharacters = BookDetailsConsts.showHideChars;
     this.bookDescriptionLength = this.selectedBook.description.length;
     this.bookDescription = this.selectedBook.description.substr(0, this.showCharacters);
+    this.fontSize = BookDetailsConsts.fontSizes.defaultFontSize;
+    this.fontClass = 'font-' + this.fontSize;
     this.checkButtonsVisibility();
   }
 }

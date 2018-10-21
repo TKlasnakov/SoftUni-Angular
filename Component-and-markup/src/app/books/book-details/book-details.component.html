@@ -1,8 +1,14 @@
 <div id="book-details-wrapper" class="book-details-wrapper">
-  <div id="description" class="description book-details clearfix">
-    <div id="description__text" class="description__text">{{bookDescription}}</div>
-    <div *ngIf="showButtonLess" id="description__read-less" class="description__read-more description__button left" (click)="readLess()">Read Less</div>
-    <div *ngIf="showButtonMore" id="description__read-more" class="description__read-more description__button right" (click)="readMore()">Read More</div>
+  <div id="description" class="description book-details">
+    <div class="clearfix">
+      <div id="description__decrease-font-size" class="description__decrease-font-size description__zooming-button left" (click)="decreaseFontSize()">-</div>
+      <div id="description__increase-font-size" class="description__increase-font-size description__zooming-button right" (click)="increaseFontSize()">+</div>
+    </div>
+    <div id="description__text" class="description__text {{fontClass}}">{{bookDescription}}</div>
+    <div class="clearfix">
+      <div *ngIf="showButtonLess" id="description__read-less" class="description__read-more description__button left" (click)="readLess()">Read Less</div>
+      <div *ngIf="showButtonMore" id="description__read-more" class="description__read-more description__button right" (click)="readMore()">Read More</div>
+    </div>
   </div>
   <div id="author" class="author book-details">
     <h3>{{selectedBook.author}}</h3>

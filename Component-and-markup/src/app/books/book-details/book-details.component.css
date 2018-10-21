@@ -8,6 +8,21 @@
   margin: 0 auto;
   display: block;
 }
+.description__zooming-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-top: 2px;
+}
+.description__zooming-button:hover {
+  cursor: pointer;
+}
 .description__button {
   display: inline-block;
   padding: 10px;
@@ -19,4 +34,19 @@
 }
 .description__button:hover {
   cursor: pointer;
+}
+.font-10 {
+  font-size: 10px
+}
+.font-12 {
+  font-size: 12px
+}
+.font-14 {
+  font-size: 14px
+}
+.font-16 {
+  font-size: 16px
+}
+.font-18 {
+  font-size: 18px
 }
