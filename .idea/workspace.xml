@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1078692a-c230-4849-a74d-8c29a66968de" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.component.constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.component.constants.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.service.ts" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,56 +21,61 @@
     <session id="-335189443">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="Angular2LanguageService" value="2" />
+          <entry key="Angular2LanguageService" value="5" />
           <entry key="TsLintLanguageService" value="1" />
-          <entry key="TypeScriptServerServiceImpl" value="2" />
+          <entry key="TypeScriptServerServiceImpl" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="16" />
-          <entry key="html" value="14" />
-          <entry key="js" value="3" />
+          <entry key="css" value="42" />
+          <entry key="html" value="52" />
+          <entry key="js" value="4" />
           <entry key="json" value="6" />
           <entry key="md" value="1" />
-          <entry key="ts" value="40" />
+          <entry key="ts" value="121" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="16" />
-          <entry key="HTML" value="14" />
+          <entry key="CSS" value="42" />
+          <entry key="HTML" value="52" />
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="3" />
+          <entry key="JavaScript" value="4" />
           <entry key="Markdown" value="1" />
-          <entry key="TypeScript" value="40" />
+          <entry key="TypeScript" value="121" />
           <entry key="tsconfig" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="608" />
-          <entry key="HTML" value="676" />
+          <entry key="CSS" value="899" />
+          <entry key="HTML" value="2129" />
           <entry key="JavaScript" value="7" />
           <entry key="Markdown" value="72" />
-          <entry key="TypeScript" value="1727" />
+          <entry key="TypeScript" value="5652" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="608" />
-          <entry key="html" value="676" />
+          <entry key="css" value="899" />
+          <entry key="html" value="2129" />
           <entry key="js" value="7" />
           <entry key="md" value="72" />
-          <entry key="ts" value="1727" />
+          <entry key="ts" value="5652" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -87,28 +87,51 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.component.css">
+        <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/popular-movies/popular-movies.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            <state relative-caret-position="425">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.component.html">
+        <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/movies-in-theaters/movies-in-theaters.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="108" selection-start-line="4" selection-start-column="108" selection-end-line="4" selection-end-column="108" />
+            <state relative-caret-position="187">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.component.spec.ts">
+        <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-services/movies.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="40" column="74" selection-start-line="40" selection-start-column="74" selection-end-line="40" selection-end-column="74" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movie-finder/src/styles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/popular-movies/popular-movies.component.spec.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
               <folding>
                 <element signature="e#0#73#0" expanded="true" />
               </folding>
@@ -117,53 +140,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.component.ts">
+        <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/movies-in-theaters/movies-in-theaters.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+            <state relative-caret-position="272">
+              <caret line="16" column="19" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="16" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/movies-in-theaters/movies-in-theaters.component.spec.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
               <folding>
-                <element signature="e#0#66#0" expanded="true" />
+                <element signature="e#0#73#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Component-and-markup/tsconfig.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="374">
-                <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/popular-movies/popular-movies.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/books/books.component.css">
+        <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/popular-movies/popular-movies.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="170">
+              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Component-and-markup/tslint.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.component.constants.ts">
+        <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/movies-in-theaters/movies-in-theaters.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -173,10 +195,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="TypeScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -184,8 +206,21 @@
     <findStrings>
       <find>‘</find>
       <find>’</find>
-      <find>books</find>
       <find>https://upload.wikimedia.org/wikipedia/en/9/9b/Shogun.jpg</find>
+      <find>books</find>
+      <find>.</find>
+      <find>&lt;body&gt;</find>
+      <find>movieService</find>
+      <find>/src/app/service/movies.service.ts</find>
+      <find>movies.service</find>
+      <find>panel-default</find>
+      <find>console.log</find>
+      <find>console.log(data);</find>
+      <find>inTheathers</find>
+      <find>theaters</find>
+      <find>results</find>
+      <find>c</find>
+      <find>moviesLength</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -194,27 +229,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Introduction-to-TypeScript/Hello.ts" />
-        <option value="$PROJECT_DIR$/Introduction-to-TypeScript/Hello.js" />
-        <option value="$PROJECT_DIR$/Component-and-markup-exercise/src/main.ts" />
-        <option value="$PROJECT_DIR$/Component-and-markup-exercise/package.json" />
-        <option value="$PROJECT_DIR$/Component-and-markup-exercise/systemjs.config.js" />
-        <option value="$PROJECT_DIR$/Component-and-markup-exercise/src/app/app.component.template.html" />
-        <option value="$PROJECT_DIR$/Component-and-markup-exercise/.gitignore" />
-        <option value="$PROJECT_DIR$/Component-and-markup-exercise/src/Data.ts" />
-        <option value="$PROJECT_DIR$/Component-and-markup-exercise/README.md" />
-        <option value="$PROJECT_DIR$/primer.ts" />
-        <option value="$PROJECT_DIR$/Component-and-markup-exercise/tsconfig.json" />
-        <option value="$PROJECT_DIR$/Component-and-markup-exercise/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/Component-and-markup-exercise/src/app/books/books.component.interfaces.ts" />
-        <option value="$PROJECT_DIR$/Component-and-markup-exercise/src/app/Data.ts" />
-        <option value="$PROJECT_DIR$/Component-and-markup-exercise/src/app/app.component.css" />
-        <option value="$PROJECT_DIR$/Component-and-markup-exercise/index.css" />
-        <option value="$PROJECT_DIR$/Component-and-markup-exercise/index.html" />
-        <option value="$PROJECT_DIR$/Component-and-markup-exercise/src/app/books/books.component.css" />
-        <option value="$PROJECT_DIR$/Component-and-markup-exercise/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/Component-and-markup-exercise/src/app/books/books.module.ts" />
-        <option value="$PROJECT_DIR$/Component-and-markup-exercise/src/app/book-details/book-details.component.ts" />
         <option value="$PROJECT_DIR$/Component-and-markup-exercise/src/app/books/book-details/book-details.component.ts" />
         <option value="$PROJECT_DIR$/Component-and-markup-exercise/src/app/books/books.component.ts" />
         <option value="$PROJECT_DIR$/Component-and-markup-exercise/src/app/books/books.component.html" />
@@ -233,9 +247,39 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.service.ts" />
         <option value="$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.component.constants.ts" />
-        <option value="$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.component.ts" />
         <option value="$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.component.html" />
         <option value="$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.component.css" />
+        <option value="$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.component.ts" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/top-naviagion/top-naviagion.module.ts" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/top-navigation/top-navigation/top-navigation.component.html" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/top-navigation/top-navigation/top-navigation.component.ts" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/top-navigation/top-naviagion.module.ts" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/top-navigation/top-navigation.component.ts" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/top-navigation/top-navigation.component.html" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/movie-finder/src/index.html" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/service/movies.service.ts" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/movies/service/movies.service.ts" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/movies/movies.component.html" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/movies/movies.component.css" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/movies/movies.component.ts" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/movies/movies.module.ts" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies.component.ts" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies.module.ts" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies.component.css" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/navigation/navigation.component.html" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies.component.html" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/movies-in-theaters/movies-in-theaters.component.css" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/app.component.css" />
+        <option value="$PROJECT_DIR$/movie-finder/src/styles.css" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/movies-in-theaters/movies-in-theaters.component.html" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-services/movies.service.ts" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/movies-in-theaters/movies-in-theaters.component.ts" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/popular-movies/popular-movies.component.ts" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/popular-movies/popular-movies.component.css" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/popular-movies/popular-movies.component.html" />
       </list>
     </option>
   </component>
@@ -247,10 +291,12 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/Component-and-markup/node_modules" />
+    <handled-path value="$PROJECT_DIR$/movie-finder/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/Component-and-markup/package.json" />
+      <path value="$PROJECT_DIR$/movie-finder/package.json" />
       <path value="$PROJECT_DIR$/node_modules/ansi-regex/package.json" />
       <path value="$PROJECT_DIR$/node_modules/ansi-styles/package.json" />
       <path value="$PROJECT_DIR$/node_modules/argparse/package.json" />
@@ -300,9 +346,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="1934" />
-    <option name="height" value="1047" />
+    <option name="x" value="-1771" />
+    <option name="y" value="-10" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -320,37 +367,66 @@
             <path>
               <item name="SoftUni-Angular" type="b2602c69:ProjectViewProjectNode" />
               <item name="SoftUni-Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="Component-and-markup" type="462c0819:PsiDirectoryNode" />
+              <item name="movie-finder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SoftUni-Angular" type="b2602c69:ProjectViewProjectNode" />
               <item name="SoftUni-Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="Component-and-markup" type="462c0819:PsiDirectoryNode" />
+              <item name="movie-finder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SoftUni-Angular" type="b2602c69:ProjectViewProjectNode" />
               <item name="SoftUni-Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="Component-and-markup" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SoftUni-Angular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftUni-Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="Component-and-markup" type="462c0819:PsiDirectoryNode" />
+              <item name="movie-finder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="books" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SoftUni-Angular" type="b2602c69:ProjectViewProjectNode" />
               <item name="SoftUni-Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="Component-and-markup" type="462c0819:PsiDirectoryNode" />
+              <item name="movie-finder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="books" type="462c0819:PsiDirectoryNode" />
-              <item name="book-details" type="462c0819:PsiDirectoryNode" />
+              <item name="movies-module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoftUni-Angular" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoftUni-Angular" type="462c0819:PsiDirectoryNode" />
+              <item name="movie-finder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="movies-module" type="462c0819:PsiDirectoryNode" />
+              <item name="movies-components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoftUni-Angular" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoftUni-Angular" type="462c0819:PsiDirectoryNode" />
+              <item name="movie-finder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="movies-module" type="462c0819:PsiDirectoryNode" />
+              <item name="movies-components" type="462c0819:PsiDirectoryNode" />
+              <item name="movies-in-theaters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoftUni-Angular" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoftUni-Angular" type="462c0819:PsiDirectoryNode" />
+              <item name="movie-finder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="movies-module" type="462c0819:PsiDirectoryNode" />
+              <item name="movies-components" type="462c0819:PsiDirectoryNode" />
+              <item name="popular-movies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoftUni-Angular" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoftUni-Angular" type="462c0819:PsiDirectoryNode" />
+              <item name="movie-finder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="movies-module" type="462c0819:PsiDirectoryNode" />
+              <item name="movies-services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -361,9 +437,11 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="SearchEverywhereHistoryKey" value="naviga&#9;FILE&#9;file://D:/Documents/SoftUni/SoftUni-Angular/movie-finder/src/app/navigation/navigation.component.html&#10;movies.service.t&#9;FILE&#9;file://D:/Documents/SoftUni/SoftUni-Angular/movie-finder/src/app/movies/movies.service.ts" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="js.last.introduce.type" value="CONST" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -371,17 +449,18 @@
     <property name="node.js.selected.package.tslint" value="D:\Documents\SoftUni\SoftUni-Angular\node_modules\tslint" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.tslint" />
-    <property name="ts.external.directory.path" value="D:\Documents\SoftUni\SoftUni-Angular\Component-and-markup\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="D:\Documents\SoftUni\SoftUni-Angular\movie-finder\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\SoftUni\SoftUni-Angular\movie-finder\src\app\movies\component" />
+      <recent name="D:\Documents\SoftUni\SoftUni-Angular\movie-finder\src\app\movies" />
+      <recent name="D:\Documents\SoftUni\SoftUni-Angular\movie-finder\src\app" />
+      <recent name="D:\Documents\SoftUni\SoftUni-Angular\movie-finder\src\app\movies\service" />
+      <recent name="D:\Documents\SoftUni\SoftUni-Angular" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Documents\SoftUni\SoftUni-Angular\Component-and-markup\src\app" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Documents\SoftUni\SoftUni-Angular" />
-      <recent name="D:\Documents\SoftUni\SoftUni-Angular\Component-and-markup-exercise" />
-      <recent name="D:\Documents\SoftUni\SoftUni-Angular\Component-and-markup-exercise\src\app\books" />
-      <recent name="D:\Documents\SoftUni\SoftUni-Angular\Component-and-markup-exercise\src\app" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -396,7 +475,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.asd.js">
+  <component name="RunManager" selected="Karma.AppComponent.should render title in a h1 tag">
+    <configuration name="AppComponent.should render title in a h1 tag" type="JavaScriptTestRunnerKarma" factoryName="Karma" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/Component-and-markup/src/karma.conf.js" />
+      <karma-package-dir value="$PROJECT_DIR$/Component-and-markup/node_modules/@angular/cli" />
+      <working-directory value="$PROJECT_DIR$/Component-and-markup" />
+      <node-interpreter value="project" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-names>
+        <test-name value="AppComponent" />
+        <test-name value="should render title in a h1 tag" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="Hello.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="Hello.js" working-dir="$PROJECT_DIR$/Introduction-to-TypeScript">
       <method v="2" />
     </configuration>
@@ -415,9 +507,11 @@
     <list>
       <item itemvalue="Node.js.Hello.js" />
       <item itemvalue="Node.js.asd.js" />
+      <item itemvalue="Karma.AppComponent.should render title in a h1 tag" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Karma.AppComponent.should render title in a h1 tag" />
         <item itemvalue="Node.js.asd.js" />
         <item itemvalue="Node.js.Hello.js" />
       </list>
@@ -439,15 +533,29 @@
       <workItem from="1540016467783" duration="66000" />
       <workItem from="1540017036789" duration="45000" />
       <workItem from="1540017095025" duration="19215000" />
-      <workItem from="1540130400356" duration="3834000" />
+      <workItem from="1540130400356" duration="5041000" />
+      <workItem from="1540147274185" duration="1962000" />
+      <workItem from="1541346825465" duration="610000" />
+      <workItem from="1541954165294" duration="1818000" />
+      <workItem from="1541956036106" duration="1121000" />
+      <workItem from="1543762339193" duration="3606000" />
+      <workItem from="1543766327134" duration="4707000" />
+      <workItem from="1547380656411" duration="4951000" />
+      <workItem from="1547385688311" duration="6110000" />
+      <workItem from="1548503042938" duration="14973000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="AppComponent_should_render_title_in_a_h1_tag - 2018.10.21 at 18h 06m 32s.xml">
+      <configuration name="AppComponent.should render title in a h1 tag" configurationId="JavaScriptTestRunnerKarma" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50652000" />
+    <option name="totallyTimeSpent" value="91717000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21917808" />
@@ -477,191 +585,38 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/primer.js" />
-    <entry file="file://$PROJECT_DIR$/Component-and-markup-exercise/systemjs.config.js" />
-    <entry file="file://$PROJECT_DIR$/Component-and-markup-exercise/tsconfig.json" />
-    <entry file="file://$PROJECT_DIR$/Component-and-markup-exercise/dist/Data.js" />
-    <entry file="file://$PROJECT_DIR$/Component-and-markup-exercise/src/app/books/books.component.interfaces.ts" />
-    <entry file="file://$PROJECT_DIR$/Component-and-markup-exercise/node_modules/@angular/platform-browser/src/browser.d.ts" />
-    <entry file="file://$PROJECT_DIR$/Component-and-markup-exercise/index.html" />
-    <entry file="file://$PROJECT_DIR$/Component-and-markup-exercise/index.css" />
-    <entry file="file://$PROJECT_DIR$/Component-and-markup-exercise/src/app/books/books.component.html" />
-    <entry file="file://$PROJECT_DIR$/Component-and-markup-exercise/src/app/books/books.component.ts" />
-    <entry file="file://$PROJECT_DIR$/Component-and-markup-exercise/src/app/books/book-details/book-details.component.ts" />
-    <entry file="file://$PROJECT_DIR$/Component-and-markup-exercise/src/app/books/books.module.ts" />
-    <entry file="file://$PROJECT_DIR$/Component-and-markup-exercise/package.json" />
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/tslint/lib/language/walker/blockScopeAwareRuleWalker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tslint.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Component-and-markup/e2e/tsconfig.e2e.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Component-and-markup/e2e/protractor.conf.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Component-and-markup/e2e/src/app.e2e-spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Component-and-markup-exercise/src/main.ts" />
-    <entry file="file://$PROJECT_DIR$/Component-and-markup-exercise/src/app/Data.ts" />
-    <entry file="file://$PROJECT_DIR$/Component-and-markup-exercise/src/app/app.module.ts" />
-    <entry file="file://$PROJECT_DIR$/Component-and-markup-exercise/src/app/app.component.ts" />
-    <entry file="file://$PROJECT_DIR$/Component-and-markup-exercise/src/app/app.component.css" />
-    <entry file="file://$PROJECT_DIR$/Component-and-markup-exercise/src/app/app.component.html" />
-    <entry file="file://$PROJECT_DIR$/Component-and-markup-exercise/src/app/books/books.component.css" />
-    <entry file="file://$PROJECT_DIR$/asd.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Component-and-markup/node_modules/@angular/core/testing/src/component_fixture.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/app.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/books/books.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/Data.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Component-and-markup/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="58" lean-forward="true" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Component-and-markup/src/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.service.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/books/books.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="e#48#90#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/books/books.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/books/books.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/books/books.component.interfaces.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Component-and-markup/tslint.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Component-and-markup/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="374">
-            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/books/books.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -672,27 +627,216 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.component.ts">
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/top-navigation/top-navigation-component/top-navigation.component.html" />
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/top-navigation/top-navigation-component/top-navigation.component.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/top-navigation/top-naviagion.module.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/top-navigation/top-navigation-component/top-navigation.component.spec.js" />
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/top-navigation/top-navigation-component/top-navigation.component.ts" />
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/top-navigation/top-navigation-component/top-navigation.component.css" />
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/top-navigation/top-naviagion.module.ts" />
+    <entry file="file://$PROJECT_DIR$/movie-finder/node_modules/@angular/core/src/metadata/ng_module.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+        <state relative-caret-position="299">
+          <caret line="167" column="4" selection-start-line="167" selection-start-column="4" selection-end-line="167" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/sprintf-js/demo/angular.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/top-navigation/top-navigation.component.css" />
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/top-navigation/top-navigation.component.html" />
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/top-navigation/top-navigation.component.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/top-navigation/top-navigation.component.ts" />
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies/service/movies.service.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies/service/movies.service.ts" />
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies/component/movies.component.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/navigation/navigation.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/app.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies.module.spec.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies/component/movies.component.css" />
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies/component/movies.component.html" />
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies/component/movies.component.ts" />
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding>
-            <element signature="e#0#66#0" expanded="true" />
+            <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.component.html">
+    <entry file="file://$PROJECT_DIR$/movie-finder/node_modules/@angular/core/src/metadata/directives.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="108" selection-start-line="4" selection-start-column="108" selection-end-line="4" selection-end-column="108" />
+        <state relative-caret-position="299">
+          <caret line="454" column="4" selection-start-line="454" selection-start-column="4" selection-end-line="454" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.component.css">
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/navigation/navigation.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/navigation/navigation.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="17">
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="70" lean-forward="true" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/movies-in-theaters/movies-in-theaters.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/movies-in-theaters/movies-in-theaters.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-services/movies.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="74" selection-start-line="40" selection-start-column="74" selection-end-line="40" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/popular-movies/popular-movies.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/movies-in-theaters/movies-in-theaters.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/popular-movies/popular-movies.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/popular-movies/popular-movies.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/movies-in-theaters/movies-in-theaters.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/popular-movies/popular-movies.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>

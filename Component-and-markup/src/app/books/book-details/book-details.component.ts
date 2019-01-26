@@ -12,13 +12,13 @@ export class BookDetailsComponent implements OnChanges{
 
   @Input() selectedBook: Book;
 
-  private showCharacters: number;
-  private bookDescriptionLength: number;
-  private fontSize: number;
-  protected bookDescription: string;
-  protected fontClass: string;
-  protected showButtonMore: boolean;
-  protected showButtonLess: boolean;
+  showCharacters: number;
+  bookDescriptionLength: number;
+  fontSize: number;
+  bookDescription: string;
+  fontClass: string;
+  showButtonMore: boolean;
+  showButtonLess: boolean;
 
   constructor() {}
 
