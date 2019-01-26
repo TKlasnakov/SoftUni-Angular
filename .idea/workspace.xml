@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1078692a-c230-4849-a74d-8c29a66968de" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-finder/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/movie-finder/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Component-and-markup/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Component-and-markup/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,7 +44,7 @@
           <entry key="html" value="52" />
           <entry key="js" value="4" />
           <entry key="json" value="6" />
-          <entry key="md" value="3" />
+          <entry key="md" value="4" />
           <entry key="ts" value="121" />
         </counts>
       </usages-collector>
@@ -55,7 +54,7 @@
           <entry key="HTML" value="52" />
           <entry key="JSON" value="4" />
           <entry key="JavaScript" value="4" />
-          <entry key="Markdown" value="3" />
+          <entry key="Markdown" value="4" />
           <entry key="TypeScript" value="121" />
           <entry key="tsconfig" value="2" />
         </counts>
@@ -107,12 +106,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor>
                 <caret column="59" selection-start-column="59" selection-end-column="59" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Component-and-markup/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="374">
+                <caret line="22" selection-start-line="22" selection-end-line="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -159,18 +170,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="16" column="19" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="16" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/movies-in-theaters/movies-in-theaters.component.spec.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#73#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -235,7 +234,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Component-and-markup-exercise/src/app/books/books.component.ts" />
         <option value="$PROJECT_DIR$/Component-and-markup-exercise/src/app/books/books.component.html" />
         <option value="$PROJECT_DIR$/tslint.json" />
         <option value="$PROJECT_DIR$/Component-and-markup/src/app/app.component.html" />
@@ -286,6 +284,7 @@
         <option value="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/popular-movies/popular-movies.component.html" />
         <option value="$PROJECT_DIR$/movie-finder/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Component-and-markup/README.md" />
       </list>
     </option>
   </component>
@@ -373,7 +372,7 @@
             <path>
               <item name="SoftUni-Angular" type="b2602c69:ProjectViewProjectNode" />
               <item name="SoftUni-Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="movie-finder" type="462c0819:PsiDirectoryNode" />
+              <item name="Component-and-markup" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -489,7 +488,7 @@
       <workItem from="1543766327134" duration="4707000" />
       <workItem from="1547380656411" duration="4951000" />
       <workItem from="1547385688311" duration="6110000" />
-      <workItem from="1548503042938" duration="15877000" />
+      <workItem from="1548503042938" duration="15952000" />
     </task>
     <servers />
   </component>
@@ -499,7 +498,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92621000" />
+    <option name="totallyTimeSpent" value="92696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -532,13 +531,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/books/books.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -788,6 +780,16 @@
         <state split_layout="SPLIT">
           <first_editor>
             <caret column="59" selection-start-column="59" selection-end-column="59" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Component-and-markup/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="374">
+            <caret line="22" selection-start-line="22" selection-end-line="22" />
           </first_editor>
           <second_editor />
         </state>
