@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1078692a-c230-4849-a74d-8c29a66968de" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Component-and-markup/src/app/books/book-details/book-details.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-finder/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/movie-finder/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,7 +44,7 @@
           <entry key="html" value="52" />
           <entry key="js" value="4" />
           <entry key="json" value="6" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="ts" value="121" />
         </counts>
       </usages-collector>
@@ -55,7 +54,7 @@
           <entry key="HTML" value="52" />
           <entry key="JSON" value="4" />
           <entry key="JavaScript" value="4" />
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
           <entry key="TypeScript" value="121" />
           <entry key="tsconfig" value="2" />
         </counts>
@@ -65,7 +64,7 @@
           <entry key="CSS" value="899" />
           <entry key="HTML" value="2129" />
           <entry key="JavaScript" value="7" />
-          <entry key="Markdown" value="72" />
+          <entry key="Markdown" value="202" />
           <entry key="TypeScript" value="5652" />
         </counts>
       </usages-collector>
@@ -74,7 +73,7 @@
           <entry key="css" value="899" />
           <entry key="html" value="2129" />
           <entry key="js" value="7" />
-          <entry key="md" value="72" />
+          <entry key="md" value="202" />
           <entry key="ts" value="5652" />
         </counts>
       </usages-collector>
@@ -86,11 +85,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/popular-movies/popular-movies.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
               <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/movie-finder/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="34">
+                <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -115,15 +126,6 @@
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movie-finder/src/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -229,7 +231,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Component-and-markup-exercise/src/app/books/book-details/book-details.component.ts" />
         <option value="$PROJECT_DIR$/Component-and-markup-exercise/src/app/books/books.component.ts" />
         <option value="$PROJECT_DIR$/Component-and-markup-exercise/src/app/books/books.component.html" />
         <option value="$PROJECT_DIR$/tslint.json" />
@@ -280,6 +281,7 @@
         <option value="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/popular-movies/popular-movies.component.ts" />
         <option value="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/popular-movies/popular-movies.component.css" />
         <option value="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/popular-movies/popular-movies.component.html" />
+        <option value="$PROJECT_DIR$/movie-finder/README.md" />
       </list>
     </option>
   </component>
@@ -374,59 +376,6 @@
               <item name="SoftUni-Angular" type="462c0819:PsiDirectoryNode" />
               <item name="movie-finder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SoftUni-Angular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftUni-Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="movie-finder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SoftUni-Angular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftUni-Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="movie-finder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="movies-module" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SoftUni-Angular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftUni-Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="movie-finder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="movies-module" type="462c0819:PsiDirectoryNode" />
-              <item name="movies-components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SoftUni-Angular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftUni-Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="movie-finder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="movies-module" type="462c0819:PsiDirectoryNode" />
-              <item name="movies-components" type="462c0819:PsiDirectoryNode" />
-              <item name="movies-in-theaters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SoftUni-Angular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftUni-Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="movie-finder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="movies-module" type="462c0819:PsiDirectoryNode" />
-              <item name="movies-components" type="462c0819:PsiDirectoryNode" />
-              <item name="popular-movies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SoftUni-Angular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftUni-Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="movie-finder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="movies-module" type="462c0819:PsiDirectoryNode" />
-              <item name="movies-services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -542,7 +491,7 @@
       <workItem from="1543766327134" duration="4707000" />
       <workItem from="1547380656411" duration="4951000" />
       <workItem from="1547385688311" duration="6110000" />
-      <workItem from="1548503042938" duration="14973000" />
+      <workItem from="1548503042938" duration="15701000" />
     </task>
     <servers />
   </component>
@@ -552,13 +501,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91717000" />
+    <option name="totallyTimeSpent" value="92445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21917808" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21917808" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -585,13 +534,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Component-and-markup/src/app/books/books.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -837,6 +779,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
