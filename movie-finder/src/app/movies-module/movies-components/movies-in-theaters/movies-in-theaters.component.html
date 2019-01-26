@@ -1,0 +1,25 @@
+<div class="panel panel-default movies-in-theaters movies-component">
+  <div class="panel-heading">
+    <h3 class="panel-title">Movies in theaters</h3>
+  </div>
+  <div class="panel-body" *ngIf="inTheaters">
+    <div class="row">
+      <div class="col-md-1" (click)="showPreviousMovies()">
+        <i class="arrow left"></i>
+      </div>
+      <div class="col-md-2" *ngFor="let movie of inTheaters">
+        <div class="movie-in-theater-wrapper visible">
+          <img *ngIf="movie.poster_path" src="https://image.tmdb.org/t/p/w500{{movie.poster_path}}" alt="Movie Poster">
+          <h6>{{movie.title}}</h6>
+          <p>{{movie.release_date}}</p>
+          <button type="button" class="btn btn-default">
+            View Details
+          </button>
+        </div>
+      </div>
+      <div class="col-md-1" (click)="showNextMovies()">
+        <i class="arrow right"></i>
+      </div>
+    </div>
+  </div>
+</div>

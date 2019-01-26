@@ -1,0 +1,37 @@
+body {
+  padding-top: 5rem;
+}
+i.arrow {
+  border: solid #fff;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 10px;
+  position: absolute;
+  top: 28%;
+}
+i.arrow:hover {
+  cursor: pointer;
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  right: 0;
+}
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  left: 0;
+}
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.panel-heading {
+  margin: 30px 94px;
+}
+
+

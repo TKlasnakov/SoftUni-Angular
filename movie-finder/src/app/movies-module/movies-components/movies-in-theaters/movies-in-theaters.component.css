@@ -1,0 +1,13 @@
+img {
+  width: 100%;
+}
+button {
+  position: absolute;
+  bottom: 0;
+}
+div.col-md-2 .visible {
+  height: 388px;
+}
+.movies-component {
+  margin-bottom: 30px;
+}

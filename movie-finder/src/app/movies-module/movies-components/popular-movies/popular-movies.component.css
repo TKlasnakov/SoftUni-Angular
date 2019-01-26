@@ -1,0 +1,13 @@
+img {
+  width: 100%;
+}
+button {
+  position: absolute;
+  bottom: 0;
+}
+.movies-component {
+  margin-bottom: 30px;
+}
+.popular-movies-wrapper {
+  height: 388px;
+}
