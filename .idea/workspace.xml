@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1078692a-c230-4849-a74d-8c29a66968de" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/movie-finder/src/app/app.routing.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-services/interfaces/GetInThearers.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-services/interfaces/GetPopular.interface.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-finder/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/movie-finder/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-finder/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/movie-finder/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/movies-in-theaters/movies-in-theaters.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/movies-in-theaters/movies-in-theaters.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/popular-movies/popular-movies.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/popular-movies/popular-movies.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-services/movies.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-services/movies.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-finder/src/app/navigation/navigation.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/movie-finder/src/app/navigation/navigation.component.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,7 +49,7 @@
           <entry key="js" value="5" />
           <entry key="json" value="7" />
           <entry key="md" value="4" />
-          <entry key="ts" value="161" />
+          <entry key="ts" value="163" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -68,7 +59,7 @@
           <entry key="JSON" value="5" />
           <entry key="JavaScript" value="5" />
           <entry key="Markdown" value="4" />
-          <entry key="TypeScript" value="161" />
+          <entry key="TypeScript" value="163" />
           <entry key="tsconfig" value="2" />
         </counts>
       </usages-collector>
@@ -78,7 +69,7 @@
           <entry key="HTML" value="2947" />
           <entry key="JavaScript" value="7" />
           <entry key="Markdown" value="204" />
-          <entry key="TypeScript" value="7216" />
+          <entry key="TypeScript" value="7448" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -87,7 +78,7 @@
           <entry key="html" value="2947" />
           <entry key="js" value="7" />
           <entry key="md" value="204" />
-          <entry key="ts" value="7216" />
+          <entry key="ts" value="7448" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -98,11 +89,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movie-details/movie-details.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+            <state relative-caret-position="340">
+              <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -160,11 +151,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-services/movies.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="350">
+              <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-services/interfaces/GetPopular.interface.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-services/interfaces/GetInThearers.interface.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -174,20 +183,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
               <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/movie-finder/src/app/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#22#80#0" expanded="true" />
-                <element signature="e#331#378#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -243,6 +238,7 @@
       <find>offset-md</find>
       <find>genres</find>
       <find>getMovieById</find>
+      <find>get</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -251,8 +247,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Component-and-markup/src/app/books/books.component.css" />
-        <option value="$PROJECT_DIR$/Component-and-markup/src/app/Data.ts" />
         <option value="$PROJECT_DIR$/Component-and-markup/src/app/books/books.component.html" />
         <option value="$PROJECT_DIR$/Component-and-markup/src/app/app.component.css" />
         <option value="$PROJECT_DIR$/Component-and-markup/src/styles.css" />
@@ -299,9 +293,11 @@
         <option value="$PROJECT_DIR$/movie-finder/src/app/navigation/navigation.component.html" />
         <option value="$PROJECT_DIR$/movie-finder/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/movie-finder/src/app/app.routing.ts" />
-        <option value="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-services/movies.service.ts" />
         <option value="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-components/movies-in-theaters/movies-in-theaters.component.ts" />
         <option value="$PROJECT_DIR$/movie-finder/src/app/movies-module/movie-details/movie-details.component.ts" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-services/movies.service.ts" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-services/interfaces/GetInThearers.interface.ts" />
+        <option value="$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-services/interfaces/GetPopular.interface.ts" />
       </list>
     </option>
   </component>
@@ -394,27 +390,6 @@
               <item name="SoftUni-Angular" type="b2602c69:ProjectViewProjectNode" />
               <item name="SoftUni-Angular" type="462c0819:PsiDirectoryNode" />
               <item name="movie-finder" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SoftUni-Angular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftUni-Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="movie-finder" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="rxjs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SoftUni-Angular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftUni-Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="movie-finder" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="rxjs" type="462c0819:PsiDirectoryNode" />
-              <item name="operator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SoftUni-Angular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftUni-Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="movie-finder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -439,7 +414,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="movies-module" type="462c0819:PsiDirectoryNode" />
-              <item name="movie-details" type="462c0819:PsiDirectoryNode" />
+              <item name="movies-services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SoftUni-Angular" type="b2602c69:ProjectViewProjectNode" />
@@ -448,17 +423,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="movies-module" type="462c0819:PsiDirectoryNode" />
-              <item name="movies-components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SoftUni-Angular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SoftUni-Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="movie-finder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="movies-module" type="462c0819:PsiDirectoryNode" />
-              <item name="movies-components" type="462c0819:PsiDirectoryNode" />
-              <item name="movies-in-theaters" type="462c0819:PsiDirectoryNode" />
+              <item name="movies-services" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -576,7 +542,7 @@
       <workItem from="1547380656411" duration="4951000" />
       <workItem from="1547385688311" duration="6110000" />
       <workItem from="1548503042938" duration="15952000" />
-      <workItem from="1548580637003" duration="16233000" />
+      <workItem from="1548580637003" duration="17808000" />
     </task>
     <servers />
   </component>
@@ -586,7 +552,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108929000" />
+    <option name="totallyTimeSpent" value="110504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -619,8 +585,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/top-navigation/top-navigation.component.ts" />
-    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies/service/movies.service.spec.ts" />
     <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies/service/movies.service.ts" />
     <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies/component/movies.component.spec.ts" />
     <entry file="file://$PROJECT_DIR$/movie-finder/src/app/navigation/navigation.component.ts">
@@ -921,16 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-services/movies.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/movie-finder/node_modules/rxjs/add/operator/skip.d.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -946,11 +900,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movie-details/movie-details.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        <state relative-caret-position="340">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-services/interfaces/GetInThearers.interface.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-services/movies.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movie-finder/src/app/movies-module/movies-services/interfaces/GetPopular.interface.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
         </state>
       </provider>
     </entry>

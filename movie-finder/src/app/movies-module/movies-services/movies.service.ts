@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
+import { Observable } from "rxjs";
 
 @Injectable({
   providedIn: 'root'
@@ -13,16 +14,11 @@ export class MoviesService {
 
   constructor(private http: HttpClient) {}
 
-  getPopular() {
-    return this.http.get(`${this.path}${this.popular}${this.authentication}`);
+  getPopular(): Observable<GetPopular> {
+    return this.http.get<GetPopular>(`${this.path}${this.popular}${this.authentication}`);
   }
 
-  getMovieById(id) {
-    console.log(id);
-    return this.http.get(`${this.pathMovieById}${id}${this.movieByIdAuth}`);
-  }
-
-  getMoviesInTheaters(): any {
+  getMoviesInTheaters(): Observable<InTheaters> {
     let releaseDateFromYear = new Date().getFullYear();
     let releaseDateFromMonth = new Date().getMonth() + 1;
     let releaseDateFromDay = new Date().getDate();
@@ -39,10 +35,15 @@ export class MoviesService {
     const releaseDateFrom = `primary_release_date.gte=${releaseDateFromYear}-${releaseDateFromMonth}-${releaseDateFromDay}`;
     const releaseDateTo = `&primary_release_date.lte=${releaseDateToDay}-${releaseDateToMonth}-${releaseDateToYear}`;
 
-    return this.http.get(`${this.path}${releaseDateFrom}${releaseDateTo}${this.authentication}`)
+    return this.http.get<InTheaters>(`${this.path}${releaseDateFrom}${releaseDateTo}${this.authentication}`)
   }
 
-  showMovies(movieList, indexFrom, indexToShow) {
+  getMovieById(id): Observable<Object> {
+    console.log(id);
+    return this.http.get<Object>(`${this.pathMovieById}${id}${this.movieByIdAuth}`);
+  }
+
+  showMovies(movieList, indexFrom, indexToShow): number {
     return movieList.filter((elem, index) => index >= indexFrom && index < indexToShow);
   }
 }
