@@ -1,7 +1,5 @@
 import { Injectable } from '@angular/core';
-
 import { HttpClient } from "@angular/common/http";
-import { Observable } from "rxjs";
 
 @Injectable({
   providedIn: 'root'
@@ -10,6 +8,8 @@ export class MoviesService {
   private path: string = 'https://api.themoviedb.org/3/discover/movie?';
   private popular: string = 'sort_by=popularity.desc';
   private authentication: string = '&api_key=9741af0db0daa2cc2e6d764b5bf23dde';
+  private pathMovieById: string = 'https://api.themoviedb.org/3/movie/';
+  private movieByIdAuth: string = '?api_key=9741af0db0daa2cc2e6d764b5bf23dde';
 
   constructor(private http: HttpClient) {}
 
@@ -17,7 +17,12 @@ export class MoviesService {
     return this.http.get(`${this.path}${this.popular}${this.authentication}`);
   }
 
-  getMoviesInTheaters(): Observable<Object> {
+  getMovieById(id) {
+    console.log(id);
+    return this.http.get(`${this.pathMovieById}${id}${this.movieByIdAuth}`);
+  }
+
+  getMoviesInTheaters(): any {
     let releaseDateFromYear = new Date().getFullYear();
     let releaseDateFromMonth = new Date().getMonth() + 1;
     let releaseDateFromDay = new Date().getDate();

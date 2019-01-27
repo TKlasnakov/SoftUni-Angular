@@ -1,21 +1,25 @@
+/* Angular modules */
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { HttpClientModule } from '@angular/common/http';
+import { AppRouting } from "./app.routing";
+/* Custom modules */
+import { MoviesModule } from './movies-module/movies.module';
+/* Custom components */
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
-import { HttpClientModule } from '@angular/common/http';
 
-import { MoviesModule } from './movies-module/movies.module'
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavigationComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
-    MoviesModule
+    MoviesModule,
+    AppRouting
   ],
   bootstrap: [AppComponent]
 })

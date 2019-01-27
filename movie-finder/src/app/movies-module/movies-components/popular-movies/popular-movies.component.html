@@ -12,9 +12,11 @@
           <img *ngIf="movie.poster_path" src="https://image.tmdb.org/t/p/w500{{movie.poster_path}}" alt="Movie Poster">
           <h6>{{movie.title}}</h6>
           <p>{{movie.release_date}}</p>
-          <button type="button" class="btn btn-default">
-            View Details
-          </button>
+          <a routerLink="/movie/{{movie.id}}">
+            <button type="button" class="btn btn-default" routerLink="/movie/{{movie.id}}">
+              View Details
+            </button>
+          </a>
         </div>
       </div>
       <div class="col-md-1" (click)="showNextMovies()">

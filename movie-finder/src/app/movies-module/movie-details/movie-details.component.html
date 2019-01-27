@@ -1,0 +1,40 @@
+<div id="movie-details" class="panel panel-default movie-details">
+  <div id="movie-details__body" class="panel-body movie-details__body col-md-12">
+    <div class="row" *ngIf="movieDetails">
+      <div id="movie-details__body__poster" class="movie-details__body__poster col-md-4">
+        <img src="https://image.tmdb.org/t/p/w500{{movieDetails.poster_path}}" alt="Movie Details">
+      </div>
+      <div id="movie-details__body__info" class="movie-details__body__info col-md-6">
+        <h1>{{ movieDetails.title }}</h1>
+        <div id="movie-details__body__info__overview" class="movie-details__body__info__overview movie-details__body__info__row">
+          <h4>Overview:</h4>
+          <span>{{ movieDetails.overview }}</span>
+        </div>
+        <div id="movie-details__body__info__genres" class="movie-details__body__info__genres movie-details__body__info__row">
+          <h4>Genres:</h4>
+          <span>{{ movieGenre }}</span>
+        </div>
+        <div id="movie-details__body__info__language" class="movie-details__body__info__language movie-details__body__info__row">
+          <h4>Language:</h4>
+          <span>{{ movieDetails.original_language | uppercase }}</span>
+        </div>
+        <div id="movie-details__body__info__release-date" class="movie-details__body__info__release-date movie-details__body__info__row">
+          <h4>Release date:</h4>
+          <span>{{ movieDetails.release_date }}</span>
+        </div>
+        <div id="movie-details__body__info__official-site" class="movie-details__body__info__official-site movie-details__body__info__row">
+          <h4>Official site:</h4>
+          <a href="{{ movieDetails.homepage }}" target="_blank">{{ movieDetails.homepage }}</a>
+        </div>
+        <div id="movie-details__body__info__rating" class="movie-details__body__info__rating movie-details__body__info__row">
+          <h4>Rating:</h4>
+          <span>{{ movieDetails.vote_average }}</span>
+        </div>
+        <div id="movie-details__body__info__status" class="movie-details__body__info__status movie-details__body__info__row">
+          <h4>Status:</h4>
+          <span>{{ movieDetails.status }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
